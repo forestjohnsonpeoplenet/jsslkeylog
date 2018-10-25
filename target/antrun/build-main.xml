@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="/home/forest/Desktop/PeopleNet/jsslkeylog/target/jSSLKeyLog-1.2-SNAPSHOT-shaded.jar" tofile="/home/forest/Desktop/PeopleNet/jsslkeylog/jSSLKeyLog.jar"/>
+  <copy todir="/home/forest/Desktop/PeopleNet/jsslkeylog/target/dist/src">
+    <fileset includes="pom.xml,*.txt,src/**" dir="/home/forest/Desktop/PeopleNet/jsslkeylog"/>
+  </copy>
+  <copy todir="/home/forest/Desktop/PeopleNet/jsslkeylog/target/dist/bin">
+    <fileset includes="jSSLKeyLog.jar,*.txt" dir="/home/forest/Desktop/PeopleNet/jsslkeylog"/>
+  </copy>
+</target>
+</project>
