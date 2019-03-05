@@ -1,7 +1,12 @@
 .gradle
 build/
 bin/
+.idea
+.idea/*
 .idea/
+.idea/compiler.xml
+.idea/misc.xml
+.idea/encodings.xml
 *.iml
 *.ipr
 *.iws
